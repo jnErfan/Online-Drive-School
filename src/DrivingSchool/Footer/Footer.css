@@ -1,0 +1,31 @@
+.footerContainer {
+  background-color: rgb(26, 35, 71);
+  margin-top: 100px;
+}
+.footer-Text {
+  color: rgb(182, 182, 182);
+}
+/* Footar Ancors Css  */
+.footar-icon a {
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+  font-size: 22px;
+}
+
+/* Footer Sosial Icon Css  */
+.fb:hover {
+  transform: scale(1.4);
+  color: blue;
+}
+.ins:hover {
+  transform: scale(1.5);
+  color: rgb(255, 6, 180);
+}
+.twt:hover {
+  transform: scale(1.5);
+  color: rgb(11, 181, 248);
+}
+.yt:hover {
+  transform: scale(1.5);
+  color: red;
+}

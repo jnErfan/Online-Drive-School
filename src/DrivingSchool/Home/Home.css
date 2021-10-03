@@ -1,0 +1,26 @@
+.bg-container {
+  background-image: linear-gradient(to bottom right, #4883e4, #45d7aa);
+  border-radius: 0px 0px 200px 0px;
+}
+
+.home-Main {
+  background-image: url(./bg.png);
+  height: 500px;
+}
+
+.home-Title {
+  font-size: 70px;
+  color: #fff;
+  text-align: start;
+  padding-top: 70px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.get-service {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 50px;
+  text-align: start;
+  padding-top: 70px;
+  font-family: "Bebas Neue", cursive;
+}
