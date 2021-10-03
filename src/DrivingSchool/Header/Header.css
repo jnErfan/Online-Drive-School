@@ -9,16 +9,14 @@
 }
 
 .navItems:hover {
-  background-color: #fff;
   color: #000;
-  /* text-transform: uppercase; */
   cursor: pointer;
   transform: rotate(10deg);
 }
 
 .navItems:after {
   content: "";
-  background-color: #000;
+  background-color: #fff;
   display: block;
   height: 4px;
   width: 0%;
@@ -27,9 +25,4 @@
 
 .navItems:hover::after {
   width: 100%;
-}
-
-.navContainer {
-  display: flex;
-  justify-content: space-between;
 }

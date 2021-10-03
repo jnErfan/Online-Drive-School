@@ -1,6 +1,5 @@
 import "./Header.css"
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -13,42 +12,35 @@ const Header = () => {
     return (
         <div>
           
-              <Navbar bg="dark" variant="dark">
-    <Container >
-        <div>
-            <NavLink className="text-decoration-none me-4 fw-bold fs-2 text-white" to="/home">e-Drive</NavLink>
-        </div>    
-
-        <div>
-            <Nav className="me-auto">
-            <NavLink
-             to="/home"
-             activeStyle={activeStyle}
-             className="navItems"
-             >Home</NavLink>
-
-            <NavLink
-             to="/services"
-             activeStyle={activeStyle}
-             className="navItems"
-             >Services</NavLink>
-
-            <NavLink
-             to="/contract"
-             activeStyle={activeStyle}
-             className="navItems"
-             >Contract</NavLink>
-
-            <NavLink
-             to="/about"
-             activeStyle={activeStyle}
-             className="navItems"
-             >About Us</NavLink>
-
-            </Nav>
-        </div>
-    </Container>
-                </Navbar>
+     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div className="container container-fluid">
+                <div>
+                <h1 className="text-white">e-Drive</h1>
+                </div>
+               <div>
+               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                    <NavLink activeStyle={activeStyle} className="nav-link navItems active" aria-current="page" to="/home">Home</NavLink>
+                    </li>
+                    <li className="nav-item">
+                    <NavLink activeStyle={activeStyle} className="nav-link navItems active" aria-current="page" to="/services">Services</NavLink>
+                    </li>
+                    <li className="nav-item">
+                    <NavLink activeStyle={activeStyle} className="nav-link navItems active" aria-current="page" to="/contract">Contract</NavLink>
+                    </li>
+                    <li className="nav-item">
+                    <NavLink activeStyle={activeStyle} className="nav-link navItems active" aria-current="page" to="/about">About Us</NavLink>
+                    </li>
+                </ul>
+                </div>
+               </div>
+    </div>
+    </nav>
+             
         </div>
     );
 };

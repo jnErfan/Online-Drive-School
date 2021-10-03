@@ -7,21 +7,26 @@ const Footer = () => {
 <div className="container">
             <h4 className="footer-Text fw-bold pt-5"> ABOUT ME </h4>
            <div className="d-flex row row-cols-2 mt-4 mb-4">
-            <p className="footer-Text fw-bolder text-start">Hello. Assalamualaikum Guys. My Full Name
+               
+           <div className="col col-12 col-md-6 col-lg-6">
+           <p className="footer-Text fw-bolder text-start">Hello. Assalamualaikum Guys. My Full Name
                 Is <br/> Jannatune
                 Naem Erfan (J.N.Erfan). I'M Junior
                 Web
                 Developer. <br/>
                 Thanks For Visit My Web Site.
             </p>
-
-            <p className="footer-Text fw-bolder text-start"> Location: Purbadhala Netrokona, Dhaka
-                Bangladesh
-                <br/>
-                E-mail: j.n.erfan420@gmail.com
-                <br/>
-                Phone: +8801314580860
-            </p>
+           </div>
+            <div className="col col-12 col-md-6 col-lg-6">
+                
+                         <p className="footer-Text fw-bolder text-start"> Location: Purbadhala Netrokona, Dhaka
+                            Bangladesh
+                            <br/>
+                            E-mail: j.n.erfan420@gmail.com
+                            <br/>
+                            Phone: +8801314580860
+                        </p>
+            </div>
             </div>
             <div className="mb-4">
                 <button className="btn btn-outline-light rounded-pill pt-1 pb-1 ps-3 pe-3" type="button">HIRE

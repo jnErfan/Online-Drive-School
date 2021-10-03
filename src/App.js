@@ -34,6 +34,7 @@ function App() {
               <NotFound/>
         </Route>
      </Switch>
+     
      <Footer/>
   </Router>
     </div>

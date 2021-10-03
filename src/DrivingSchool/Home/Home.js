@@ -1,11 +1,10 @@
-import { Button, Card, Col, Row } from 'react-bootstrap';
 import React from 'react';
 import "./Home.css"
 
 const Home = () => {
     return (
        <div>
-            <section className="bg-container">
+            <section className="bg-container container-fluid">
             <div className="home-Main">
               <div className="container">
               <h1 className="home-Title">
@@ -22,7 +21,7 @@ const Home = () => {
             </section>
 
             <section>
-            <Row xs={1} md={2} className="g-4">
+        {/*     <Row xs={1} md={2} className="g-4">
              <Col>
                     <Card>
                         <Card.Img variant="top" src="https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg" />
@@ -35,7 +34,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
              </Col>
-            </Row>
+            </Row> */}
             </section>
         
        </div>
