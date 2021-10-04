@@ -1,0 +1,179 @@
+[
+    
+     {
+      "id": "101",
+      "className": "The Complete Self-Driving Car Course - Applied Deep Learning",
+      "details": "Learn to use Deep Learning, Computer Vision and Machine Learning techniques to Build an Autonomous Car",
+      "description": "Self-driving cars have rapidly become one of the most transformative technologies to emerge. Fuelled by Deep Learning algorithms, they are continuously driving our society forward and creating new opportunities in the mobility sector. ",
+      "students": "18856",
+      "rating": "4.6",
+      "rateParson": "3354",
+      "price": "24.99",
+      "img": "https://img-c.udemycdn.com/course/240x135/1560148_6483_4.jpg"
+    },
+     {
+      "id": "102",
+      "className": "How to become a much better & safer driver & avoid accidents",
+      "details": "Continuously practice the principles in this course and become a better driver than 99% of people",
+      "description": "99% of people, that means most people who drive, are not good drivers at all. Most road accidents happen due to these people making mistakes, or being careless. Thousands, if not millions, of road accidents happen every day around the world. The chances of the average driver getting involved in a road accident over a period of 2 to 5 years is very high.",
+      "students": "13940",
+      "rating": "4.2",
+      "rateParson": "91",
+      "price": "28.99",
+      "img": "https://img-c.udemycdn.com/course/240x135/1321140_d46c_7.jpg"
+    },
+    {
+       "id": "103",
+       "className": "Truck Driving - An Introduction to Professional Trucking",
+       "details": "What You Should Know Before You Go to Truck Driving School",
+       "description": "Every year thousands of hopeful people enter the trucking industry excited to start their new careers as truck drivers. Every years thousands of broken disillusioned and angry people also leave the industry within their first few months. ",
+       "students": "125",
+       "rating": "4.6",
+       "rateParson": "23",
+       "price": "13.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/1184062_97e3.jpg"
+     },
+    {
+       "id": "104",
+       "className": "An easy Guide to Learning Stick Shift Driving",
+       "details": "Pick up stick shift quick and easy with these amazing meta learning principles",
+       "description": "Beginners and experts welcome. Whether you're here to learn the principles of stick shift driving or you're looking to refine your techniques, this is the place for you. With our meta learning principles, you can learn stick shift in record time.",
+       "students": "149",
+       "rating": "3.6",
+       "rateParson": "31",
+       "price": "13.99",
+       "img": "https://images.saymedia-content.com/.image/t_share/MTc0OTYxNTQ2MDIyMjk5NDk0/easiest-way-to-learn-how-to-drive-manual.jpg"
+     },
+    {
+       "id": "105",
+       "className": "Pass My Driving Test",
+       "details": "How to pass the road test to get your drivers license  driving test within a short",
+       "description": "This is a test preparation course that will help you pass the road test to get your driver’s license. It is organized into nine video lessons, with in-car driving videos that show you what to do as well as lecture videos that explain the concepts. This course is NOT another slideshow course with a voice-over, these are REAL videos.",
+       "students": "1157",
+       "rating": "4.7",
+       "rateParson": "80",
+       "price": "19.99",
+       "img": "https://cdn2.adrianflux.co.uk/wp-learner-driver/uploads/2017/07/AF4301-15-930x500-1.jpg"
+     },
+     {
+      "id": "106",
+      "className": "UK Practical Driving Test for Car",
+      "details": "Make less mistakes and pass the UK practical car driving test within a short time period and on first try.",
+      "description": "This course is for primarily for people planning to take the UK car practical driving test.  For the price of few practical class, you will surely save about 20-30 hours or more of driving tuition saving you a lot of time and money. This course will teach you in a very structured and algorithmic way to pass the UK Car Practical Driving Test. As for now this course is created with mainly for automatic driving in mind.  However, the course can be used for manual driving also, as much of the content would apply to both cases. ",
+      "students": "2,624",
+      "rating": "3.8",
+      "rateParson": "17",
+      "price": "79.99",
+      "img": "https://img-c.udemycdn.com/course/240x135/1236930_19f7_6.jpg"
+    },
+    {
+       "id": "107",
+       "className": "Autonomous Cars: The Complete Computer Vision Course 2021",
+       "details": "Learn OpenCV 4, YOLO, road markings and pedestrians detection, and traffic sign classification for self-driving cars",
+       "description": "Autonomous Cars: Computer Vision and Deep Learning The automotive industry is experiencing a paradigm shift from conventional, human-driven vehicles into self-driving, artificial intelligence-powered vehicles. Self-driving vehicles offer a safe, efficient, and cost effective solution that will dramatically redefine the future of human mobility. Self-driving cars are expected to save over half a million lives and generate enormous economic opportunities in excess of $1 trillion dollars by 2035. The automotive industry is on a billion-dollar quest to deploy the most technologically advanced vehicles on the road.",
+       "students": "124",
+       "rating": "3.6",
+       "rateParson": "17",
+       "price": "13.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/3872152_d94b.jpg"
+     },
+    {
+       "id": "108",
+       "className": "How to Flip Cars Like a Pro - Learn Car Flipping",
+       "details": "Learn OpenCV 4, YOLO, road markings and pedestrians detection, and traffic sign classification for self-driving cars",
+       "description": "This is an all-in-one course on car flipping for profit in 2019 and beyond. This course takes you from knowing nothing about buying and selling cars all the way to making thousands of dollars on car flips. I designed this course from my own experience as a car flipper and it is 100% no BS, and 100% ethical. This course shows you how to invest just 3 hours in the entire flipping process. Not all deals work out that way but I've found that 3 hours is a great benchmark for minimizing your time and maximizing your returns. Here are just a few topics that the course covers:",
+       "students": "3084",
+       "rating": "4.5",
+       "rateParson": "661",
+       "price": "18.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/1031588_2049_4.jpg"
+     },
+    {
+       "id": "109",
+       "className": "Automobile Safety: Understanding Car Crashes for beginners",
+       "details": "Surviving an accident by understanding physics of car crash",
+       "description": "If language is not going to be the barrier, I can bet, this course is going to bring some exciting experience to the reader.This course brings the understanding of car safety systems and accidents using basic physics concepts. Car safety is not limited to airbags only and you will know how, by the end of this course. Here you will understand what causes injury during an accident and thereby establishing simple habits which will reduce the threats even if you meet an accident",
+       "students": "636",
+       "rating": "3.9",
+       "rateParson": "26",
+       "price": "11.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/1721058_a733_3.jpg"
+     },
+    {
+       "id": "110",
+       "className": "Parking, Reversing and Low-speed Driving Made Easy",
+       "details": "Surviving an accident by understanding physics of car crash",
+       "description": "Just a minor dent can cost several hundred dollars to fix and the likelihood of you having one is fairly high. Parking buildings and car parks can be full of hazards like poles and kerbs; parallel parking scares some people so much that they drive around and around trying to find a space they can pull into forwards; even basic reversing is tricky for some, let alone if you have a trailer.",
+       "students": "875",
+       "rating": "4.7",
+       "rateParson": "35",
+       "price": "14.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/1512054_5e9c.jpg"
+     },
+    {
+       "id": "111",
+       "className": "Remove Fear Of Driving Using NLP Techniques",
+       "details": "Remove Fear Of Driving Using NLP And Self Hypnosis Techniques And Feel More Confident Behind The Wheels",
+       "description": "In this course titled ' Remove Fear Of Driving Using NLP Techniques ' By Pradeep Aggarwal you will learn various NLP techniques which are very powerful and simple to overcome your fear of driving a car .You will learn techniques to instantly feel confident and remove any kind of negative thought or past negative experiences associated with driving a car.",
+       "students": "1746",
+       "rating": "3.9",
+       "rateParson": "28",
+       "price": "15.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/477074_925d.jpg"
+     },
+    {
+       "id": "112",
+       "className": "Complete Car Mechanic Course for Beginners",
+       "details": "Learn how different parts of a car work, basic car maintenance skills, and what you need to start",
+       "description": "If you are searching for the right training to know the mechanics of your car or want to build your career as a car mechanic, you’ve come to the right place!",
+       "students": "265",
+       "rating": "3.3",
+       "rateParson": "12",
+       "price": "9.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/3903464_5afa_2.jpg"
+     },
+    {
+       "id": "113",
+       "className": "Used Car Dealer License And Work From Home",
+       "details": "How To Get A Used Car Dealer License And Make A Tons Of Money From Your Home With Or Without A Startup Money",
+       "description": "Learn how to Get your used car dealer License and attend dealers only auto auctions, same auctions that all used car dealers get cars from, without the coast of having a dealership and how to make profit out of your dealer license with or without a start-up money.",
+       "students": "169",
+       "rating": "3.9",
+       "rateParson": "46",
+       "price": "59.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/773312_e203_5.jpg"
+     },
+    {
+       "id": "114",
+       "className": "Race Car Vehicle Dynamics - Fundamental Theory",
+       "details": "How To Get A Used Car Dealer License And Make A Tons Of Money From Your Home With Or Without A Startup Money",
+       "description": "About the Race Track Setup / Race Car Vehicle Dynamics series of courses: Part 1) Race Car Vehicle Dynamics - Fundamental Theory (This course) Part 2) Race Car Vehicle Dynamics - Advanced Theory and Application Part 3) Race Track Setup - High Downforce Race Car All 3 parts added together as a bundle deal: Race Track Setup Masterclass - From Theory to Solutions",
+       "students": "1128",
+       "rating": "4.3",
+       "rateParson": "14",
+       "price": "19.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/3136488_de0b_3.jpg"
+     },
+    {
+       "id": "115",
+       "className": "Easy Guide to Learning Stick Shift Driving",
+       "details": "Pick up stick shift quick and easy with these amazing meta learning principles",
+       "description": "Beginners and experts welcome. Whether you're here to learn the principles of stick shift driving or you're looking to refine your techniques, this is the place for you. With our meta learning principles, you can learn stick shift in record time.",
+       "students": "158",
+       "rating": "4.1",
+       "rateParson": "36",
+       "price": "21.99",
+       "img": "https://img-c.udemycdn.com/course/240x135/677444_cfd4.jpg"
+     },
+    {
+      "id": "116",
+      "className": "Drive Responsibly Defensive Driving Course",
+      "details": "Not your average 'defensive driving' course.learning principles, you can learn stick shift in record time.",
+      "description": "Our number #1 goal is that you become a more responsible driver as a result of taking this defensive driving course.",
+      "students": "115",
+      "rating": "4.1",
+      "rateParson": "34",
+      "price": "44.99",
+      "img": "https://img-c.udemycdn.com/course/100x100/241536_6e19_2.jpg"
+    }
+]

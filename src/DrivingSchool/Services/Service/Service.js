@@ -3,12 +3,18 @@ import { Card, Col } from 'react-bootstrap';
 import "./Service.css";
 import Rating from 'react-rating';
 import { Button } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const Service = props => {
-    const {className, details, img, rating, rateParson, price} =props.service;
+    const {id,className, details, img, rating, rateParson, price} =props.service;
+    const history = useHistory();
+
+    const getDetails = () => {
+        history.push(`/service/${id}`)
+        }
+
     return (
         <div>
-    
             <Col className="shadow border-0 rounded-3">
             <Card className="cards single-product">
                 <Card.Img height="300px" variant="top" src={img} />
@@ -33,7 +39,7 @@ const Service = props => {
                 <h4 className="mb-3">{price}$</h4>
                 <div className="d-flex justify-content-evenly">
                 <Button onClick={()=>props.addToCart(props.service)} variant="dark">Add To Cart</Button>
-                <Button variant="outline-dark">Details</Button>
+                <Button onClick={getDetails} variant="outline-dark">Details</Button>
                 </div>
                 </Card.Body>
             </Card>

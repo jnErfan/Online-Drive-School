@@ -7,6 +7,7 @@ import Footer from './DrivingSchool/Footer/Footer';
 import Header from './DrivingSchool/Header/Header';
 import Home from './DrivingSchool/Home/Home';
 import NotFound from './DrivingSchool/NotFound/NotFound';
+import ServiceDetails from './DrivingSchool/Services/ServiceDetails/ServiceDetails';
 import Services from './DrivingSchool/Services/Services/Services';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/contract">
               <Contract/>
+        </Route>
+        <Route path="/service/:id">
+              <ServiceDetails/>
         </Route>
         <Route exact path="*">
               <NotFound/>
