@@ -6,7 +6,7 @@ const UseServices = () => {
     const [searchDisplay, setSearchDisplay] = useState([]);
 
     useEffect(()=>{
-        fetch("fakeData.json")
+        fetch("fakeData.JSON")
         .then(res => res.json())
         .then(data => {
             setSearchDisplay(data)

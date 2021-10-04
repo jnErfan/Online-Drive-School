@@ -9,7 +9,7 @@ const Footer = () => {
            <div className="d-flex row row-cols-2 mt-4 mb-4">
               {/* About Me   */}
            <div className="col col-12 col-md-6 col-lg-6">
-           <p className="footer-Text fw-bolder text-start">Hello. Assalamualaikum Guys. My Full Name
+           <p className="footer-Text fw-bolder text-start">Hello. Assalamualaikum Guys. My  Name
                 Is <br/> Jannatune
                 Naem Erfan (J.N.Erfan). I'M Junior
                 Web

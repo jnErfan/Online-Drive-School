@@ -37,7 +37,9 @@ const Home = () => {
             <section className="container mt-5">
             <Row xs={1} md={2} lg={4} className="g-4">
             {
-               ourServices.map(ourService => <Col className="shadow border-0 rounded-3">
+               ourServices.map(ourService =>
+                
+               <Col className="shadow border-0 rounded-3" key={ourService.id}>
             <Card className="product home-product">
                 <Card.Img  variant="top" src={ourService.img} />
                 <Card.Body>
