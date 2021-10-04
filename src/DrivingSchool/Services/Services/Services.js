@@ -9,11 +9,12 @@ export const serviceContext = createContext();
 
 
 const Services = () => {
+    // Received Fetching Data In Hooks 
     const [services,searchDisplay,setSearchDisplay] = UseServices();
      const [cartUpdate, setCartUpdate] = useState([]);
 
 
-
+    // Add Item In Local Storage 
      useEffect(() => {
         if (services.length) {
             const savedStorage = getStorage();
@@ -28,7 +29,7 @@ const Services = () => {
     } ,[services])
 
 
-
+    // Course Add Cart Button Button Handler 
     const addToCart = service => {
         const exist = cartUpdate.find(cartItem => cartItem.id === service.id);
         if (exist) {
@@ -40,6 +41,7 @@ const Services = () => {
         }
         }
 
+            // Search Item Input Field Handler 
         const searchCoures = event =>{
             const searchText = event.target.value ;
             const matchedCourse = services.filter(service => service.className.toLowerCase().includes(searchText.toLowerCase()));
@@ -50,9 +52,13 @@ const Services = () => {
 
     return (
 <div className="container mt-5">
+
+    {/* Search Input Field  */}
     <div className="mb-4  d-flex justify-content-center">
     <FormControl onChange={searchCoures} className="w-75 " placeholder="Search Course" />
     </div>
+
+    {/* Conditional Randaring (Tarnary Oparator) Add Spinner  */}
 {
     services.length === 0 ? 
     <div>
@@ -78,6 +84,7 @@ const Services = () => {
             </Row>
             </div>
             <div className="col col-12 col-md-3 col-lg-3">
+                {/* Use Context Api Send Data  */}
             <serviceContext.Provider value={[cartUpdate, setCartUpdate]}>
              <Cart/>
             </serviceContext.Provider>

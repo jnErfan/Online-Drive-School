@@ -6,7 +6,7 @@ import Rating from 'react-rating';
 const Home = () => {
     
     const [ourServices ,setOurServices] = useState([])
-
+    // Only 4 Course Data Showing Dynamic In Home 
     useEffect(()=>{
         fetch("homeFakeData.JSON")
         .then(res => res.json())
@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
        <div>
-          
+          {/* Header Main Website Name  */}
             <section className="bg-container container-fluid">
             <div className="home-Main">
               <div className="container">
@@ -29,10 +29,11 @@ const Home = () => {
                 <h1 className="get-service">
                 Get Your Driving Services Here
                 </h1>
-            {/* <Button>Go Service</Button> */}
               </div>
             </div>
             </section>
+
+            {/* Dynamic 4 Data Card  */}
             <section className="container mt-5">
             <Row xs={1} md={2} lg={4} className="g-4">
             {
@@ -41,7 +42,7 @@ const Home = () => {
                 <Card.Img  variant="top" src={ourService.img} />
                 <Card.Body>
                 <Card.Title>{ourService.className}</Card.Title>
-               
+               {/* Dynamic Rating  */}
                 <p>
                     <Rating
                     initialRating={ourService.rating}

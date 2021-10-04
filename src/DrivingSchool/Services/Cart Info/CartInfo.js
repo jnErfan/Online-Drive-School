@@ -6,15 +6,18 @@ import "./CartInfo.css"
 
 const CartInfo= props => {
 const {cartItem} = props;
+
+// Context Api Received Data
 const [cartUpdate,setCartUpdate] = useContext(serviceContext);
 
+// Cart Item Remove Button Handler 
 const getRemoved = () =>{
        const removeCart = cartUpdate.filter(service => service.id !== cartItem.id);
        setCartUpdate(removeCart);
        removeStorage(cartItem.id);
 }
 
-// Update Developer Name And Salary In Cart 
+// Update Course Name And Price In Cart 
 return (
     <div className="card mb-3 shadow cart-info">
             

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Contract = () => {
+    // Contract Us Component 
     return (
         <div className="container row row-col-2">
             <div className="mt-5 col col-12 col-md-6 col-lg-6">

@@ -5,8 +5,10 @@ import { serviceContext } from '../Services/Services';
 import "./Cart.css";
 
 const Cart = () => {
+  // Use Context Api Received  Data 
   const [cartUpdate,setCartUpdate] = useContext(serviceContext);
 
+  // Reduce 
   const totalPrice = (previous,current) => previous + parseFloat(current.price) ;
     const price =  cartUpdate.reduce(totalPrice,0);
 
@@ -43,6 +45,7 @@ const Cart = () => {
         </div>
         </div>
        <div className="mt-3">
+         {/* Send Data CartInfo  */}
        {
           cartUpdate.map(cartItem => <CartInfo
           key={cartItem.id}

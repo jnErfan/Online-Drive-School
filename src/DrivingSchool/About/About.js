@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+    // About Us Component 
     return (
         <div className="container">
             <h1 className="fw-bold mt-5">

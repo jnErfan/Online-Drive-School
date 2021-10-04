@@ -9,6 +9,7 @@ const Service = props => {
     const {id,className, details, img, rating, rateParson, price} =props.service;
     const history = useHistory();
 
+    // Dynamic Routing Details Button 
     const getDetails = () => {
         history.push(`/service/${id}`)
         }
@@ -23,7 +24,7 @@ const Service = props => {
                 <Card.Text>
                 <small className="detail">{details}</small>
                 </Card.Text>
-               
+               {/* Dynamic Rating  */}
                 <p>
                     <Rating
                     initialRating={rating}
@@ -38,7 +39,9 @@ const Service = props => {
 
                 <h4 className="mb-3">{price}$</h4>
                 <div className="d-flex justify-content-evenly">
+                    {/* Add To Cart Button  */}
                 <Button onClick={()=>props.addToCart(props.service)} variant="dark">Add To Cart</Button>
+                {/* Details Service Button */}
                 <Button onClick={getDetails} variant="outline-dark">Details</Button>
                 </div>
                 </Card.Body>

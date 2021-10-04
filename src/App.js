@@ -17,24 +17,31 @@ function App() {
     <Header/>
      <Switch>
         <Route exact path="/">
+              {/* Default Showing Home Page */}
               <Home/>
         </Route>
         <Route path="/home">
+              {/* Home Page  */}
               <Home/>
         </Route>
         <Route path="/services">
+               {/* Services Main Courses  */}
               <Services/>
         </Route>
         <Route path="/about">
+              {/* About Us Component */}
               <About/>
         </Route>
         <Route path="/contract">
+              {/* Contract Us Component  */}
               <Contract/>
         </Route>
         <Route path="/service/:id">
+              {/* Service Details Dynamic Routing  */}
               <ServiceDetails/>
         </Route>
         <Route exact path="*">
+              {/* Page Not Found Error Component  */}
               <NotFound/>
         </Route>
      </Switch>

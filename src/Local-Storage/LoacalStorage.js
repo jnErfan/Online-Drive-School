@@ -15,19 +15,11 @@ const removeStorage = item => {
 }
 
 const savedToStorage = storage => {
-    // const storageStringify = JSON.stringify(storage)
     localStorage.setItem('Course-Buy',JSON.stringify(storage))
 }
 
 const getStorage = () => {
     let savedStorageItem = localStorage.getItem('Course-Buy')
-    // const storageParse = JSON.parse(savedStorageItem)
-    // if(savedStorageItem){
-    //     savedStorageItem = JSON.parse(savedStorageItem);
-    // }
-    // else{
-    //     savedStorageItem = {}
-    // }
         return savedStorageItem ? JSON.parse(savedStorageItem) : {};
 }
 
