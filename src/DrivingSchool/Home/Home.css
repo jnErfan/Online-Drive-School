@@ -24,3 +24,13 @@
   padding-top: 70px;
   font-family: "Bebas Neue", cursive;
 }
+
+.home-product {
+  border-bottom: 7px solid #488ae0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+
+.home-product:hover {
+  border: 3px solid #31d2f2;
+}
