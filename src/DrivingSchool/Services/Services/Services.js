@@ -1,12 +1,31 @@
-import { Row, Spinner } from 'react-bootstrap';
+import { FormControl, Row, Spinner } from 'react-bootstrap';
 import UseServices from '../../Hooks/UseServices';
 import Cart from '../Cart/Cart';
 import Service from '../Service/Service';
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createContext } from 'react';
+import { addToStorage, getStorage } from '../../../Local-Storage/LoacalStorage';
+export const serviceContext = createContext();
+
 
 const Services = () => {
-    const [services] = UseServices();
+    const [services,searchDisplay,setSearchDisplay] = UseServices();
      const [cartUpdate, setCartUpdate] = useState([]);
+
+
+
+     useEffect(() => {
+        if (services.length) {
+            const savedStorage = getStorage();
+            const savedOrder  = [];
+            for(const courseID in savedStorage){
+               const course = services.find(cartItem => cartItem.id === courseID);
+               savedOrder.push(course)
+            }
+            setCartUpdate(savedOrder);
+        }
+
+    } ,[services])
 
 
 
@@ -15,13 +34,25 @@ const Services = () => {
         if (exist) {
             alert("It Has Been Already Added")
         }else{
-        const hiredCounts = [...cartUpdate,service];
-            setCartUpdate(hiredCounts);
+        const courseCounts = [...cartUpdate,service];
+            setCartUpdate(courseCounts);
+            addToStorage(service.id);
         }
         }
 
+        const searchCoures = event =>{
+            const searchText = event.target.value ;
+            const matchedCourse = services.filter(service => service.className.toLowerCase().includes(searchText.toLowerCase()));
+            setSearchDisplay(matchedCourse);
+        }
+
+
+
     return (
 <div className="container mt-5">
+    <div className="mb-4  d-flex justify-content-center">
+    <FormControl onChange={searchCoures} className="w-75 " placeholder="Search Course" />
+    </div>
 {
     services.length === 0 ? 
     <div>
@@ -38,7 +69,7 @@ const Services = () => {
             <div className="col col-9 col-md-9 col-lg-9">
             <Row xs={1} md={2} lg={2} className="g-4">
             {
-                    services.map(service => <Service
+                    searchDisplay.map(service => <Service
                     key={service.id}
                     service={service}
                     addToCart={addToCart}
@@ -46,13 +77,11 @@ const Services = () => {
             }
             </Row>
             </div>
-
             <div className="col col-12 col-md-3 col-lg-3">
-             <Cart 
-             cartUpdate={cartUpdate}
-             />
+            <serviceContext.Provider value={[cartUpdate, setCartUpdate]}>
+             <Cart/>
+            </serviceContext.Provider>
             </div>
-
             </div> 
 }
             

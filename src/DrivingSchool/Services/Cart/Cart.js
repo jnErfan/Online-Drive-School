@@ -1,8 +1,11 @@
 import React from 'react';
+import { useContext } from 'react';
+import CartInfo from '../Cart Info/CartInfo';
+import { serviceContext } from '../Services/Services';
 import "./Cart.css";
 
-const Cart = props => {
-  const {cartUpdate} = props;
+const Cart = () => {
+  const [cartUpdate,setCartUpdate] = useContext(serviceContext);
 
   const totalPrice = (previous,current) => previous + parseFloat(current.price) ;
     const price =  cartUpdate.reduce(totalPrice,0);
@@ -28,7 +31,7 @@ const Cart = props => {
               <tr>
                 
                 <th>Total Price :</th>
-                <td><i className="fas fa-dollar-sign"></i> <span id="price">  {price.toFixed(2)}</span></td>
+                <td><i className="fas fa-dollar-sign"></i> <span id="price"> {price.toFixed(2)}</span></td>
               </tr>
             </tbody>
           </table>
@@ -39,6 +42,15 @@ const Cart = props => {
 
         </div>
         </div>
+       <div className="mt-3">
+       {
+          cartUpdate.map(cartItem => <CartInfo
+          key={cartItem.id}
+          cartItem={cartItem}
+          setCartUpdate={setCartUpdate}
+          />)
+        }
+       </div>
     </div>
   );
 };

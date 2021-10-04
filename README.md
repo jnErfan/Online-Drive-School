@@ -5,7 +5,9 @@
 ## What To Do With This Website
 
 • At the online driving school you will find the 16 most important driving exercises which have already integrated knowledge of advanced driving. \
+
 • Driving with the right tire pressure in changing conditions are crucial for safe ecological driving, and will extend the tires life time.You can learn about these \
+
 • I have bundled my concentrated knowledge into 24 video tutorials, so that you can still benefit from it today.
 
 <br />

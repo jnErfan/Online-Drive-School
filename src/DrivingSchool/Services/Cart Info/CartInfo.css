@@ -1,0 +1,8 @@
+.cart-info {
+  transition: 0.5s;
+}
+.cart-info:hover {
+  border: 2px solid #31d2f2;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
